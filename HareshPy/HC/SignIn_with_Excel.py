@@ -1,13 +1,12 @@
 import time
-
-from Utilities import ExcelReader
 from selenium import webdriver
+from Utilities import ExcelReader
 
-driver = webdriver.Chrome(executable_path="C:\\Users\\Ritu\\PycharmProjects\\HareshPy\\Drivers\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=".\\Drivers\\chromedriver.exe")
 driver.maximize_window()
 driver.get("https://coinbase.hcshub.in/brand/login")
 
-path = "C:\\Users\\Ritu\\PycharmProjects\\HareshPy\\TestData\\Credentials.xlsx"
+path = ".\\TestData\\Credentials.xlsx"
 rows = ExcelReader.getRowCount(path, 'Sheet1')
 
 for r in range(2, rows + 1):
