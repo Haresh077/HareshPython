@@ -2,8 +2,8 @@ import time
 from selenium import webdriver
 from Utilities import ExcelReader
 
+driver = webdriver.Chrome(executable_path="D:\Haresh\PythonQA\HareshPython\Drivers\chromedriver.exe")
 
-driver = webdriver.Chrome(executable_path=".\\Drivers\\chromedriver.exe")
 driver.maximize_window()
 driver.get("https://coinbase.hcshub.in/brand/login")
 

@@ -1,7 +1,7 @@
 import time
 
 from selenium import webdriver
-driver = webdriver.Chrome(executable_path="C:\\Users\\Ritu\\PycharmProjects\\pythonProject1\\Drivers\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="D:\Haresh\PythonQA\HareshPython\Drivers\chromedriver.exe")
 driver.maximize_window()
 
 driver.get("https://www.mailinator.com/")

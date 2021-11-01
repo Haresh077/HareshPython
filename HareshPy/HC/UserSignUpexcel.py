@@ -1,8 +1,6 @@
-
 from Utilities import ExcelReader
 import time
 from selenium import webdriver
-import datetime
 
 driver = webdriver.Chrome(executable_path="D:\Haresh\PythonAutomation\Drivers\\chromedriver.exe")
 driver.maximize_window()

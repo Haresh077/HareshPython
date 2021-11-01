@@ -3,7 +3,7 @@ import time
 import pyautogui as pyautogui
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path="D:\Haresh\Software\Python Automation\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="D:\Haresh\PythonQA\HareshPython\Drivers\chromedriver.exe")
 driver.maximize_window()
 driver.get("https://coinbase.hcshub.in/brand/login")
 email = driver.find_element_by_xpath("//body/app-root[1]/div[1]/app-login[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]").send_keys("hareshbrand@yopmail.com")
